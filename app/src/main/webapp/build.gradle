@@ -1,0 +1,16 @@
+plugins{
+    id'war'
+    id "org.gretty" version "4.0.3"
+}
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    implemention 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.2'
+    implemention 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-ap:3.0.2'
+}
+gretty{
+    contxtPath= "/"
+}
